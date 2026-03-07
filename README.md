@@ -195,8 +195,6 @@ pip install -r requirements.txt
 
 Aman Kapadia
 
-Dhyey Desai
-
 ## License
 
 This project is intended for educational and research purposes.
