@@ -176,9 +176,9 @@ pip install -r requirements.txt
 
 ## Author
 
-Dhyey Desai
-
 Aman Kapadia
+
+Dhyey Desai
 
 ## License
 
