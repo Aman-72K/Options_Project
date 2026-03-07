@@ -86,37 +86,54 @@ You will be prompted to provide:
 - Save all plots inside the results/ folder
 
 
-## Analytics Produced
+## Results
 
-1. Historical vs Implied Volatility
+### Historical vs Implied Volatility
 
-Compares realized volatility with model‑derived implied volatility over time.
+![Historical vs Implied Volatility](results/historical_vs_implied_vol.png)
 
-2. Earnings Volatility Analysis
+Compares realized volatility with implied volatility derived from the Black–Scholes model. Differences between the two may indicate changing market expectations.
 
-Examines volatility behavior in a ±30 day window around earnings announcements.
+---
 
-3. Options Pricing Dashboard
+### Volatility Around Earnings
 
-Displays:
+![Volatility Around Earnings](results/volatility_earnings.png)
 
-- Current stock price
-- Historical volatility
-- Risk-free rate
-- Black–Scholes option price
-- Option Greeks
+Volatility tends to increase around earnings announcements due to uncertainty regarding company performance and potential price reactions.
 
-4. Sensitivity Analysis
+---
 
-Plots showing how option price and delta change with stock price.
+### Option Price vs Stock Price
 
-5. Volatility Smile
+![Option Price vs Stock Price](results/option_price_vs_stock.png)
 
-Illustrates how implied volatility varies across different strike prices.
+Illustrates how the value of a call option increases as the underlying stock price rises, demonstrating the convex payoff structure of options.
 
-6. Theta Decay
+---
 
-Shows how option value decreases as time to expiry approaches.
+### Delta vs Stock Price
+
+![Delta vs Stock Price](results/delta_vs_stock.png)
+
+Delta measures the sensitivity of the option price to changes in the underlying asset price. As the option becomes more in-the-money, delta approaches 1.
+
+---
+
+### Volatility Smile
+
+![Volatility Smile](results/volatility_smile.png)
+
+The volatility smile shows how implied volatility varies across different strike prices, reflecting real market behavior not captured by the constant volatility assumption.
+
+---
+
+### Theta Decay
+
+![Theta Decay](results/theta_decay.png)
+
+Theta decay demonstrates how option value decreases as time to expiration approaches, highlighting the impact of time decay on options pricing.
+
 
 ## Financial Concepts Used
 
