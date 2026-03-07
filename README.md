@@ -98,7 +98,7 @@ Compares realized volatility with implied volatility derived from the Black–Sc
 
 ### Volatility Around Earnings
 
-![Volatility Around Earnings](results/volatility_earnings.png)
+![Volatility Around Earnings](results/vol_around_earnings.png)
 
 Volatility tends to increase around earnings announcements due to uncertainty regarding company performance and potential price reactions.
 
@@ -106,7 +106,7 @@ Volatility tends to increase around earnings announcements due to uncertainty re
 
 ### Option Price vs Stock Price
 
-![Option Price vs Stock Price](results/option_price_vs_stock.png)
+![Option Price vs Stock Price](results/option_vs_stock.png)
 
 Illustrates how the value of a call option increases as the underlying stock price rises, demonstrating the convex payoff structure of options.
 
@@ -122,7 +122,7 @@ Delta measures the sensitivity of the option price to changes in the underlying 
 
 ### Volatility Smile
 
-![Volatility Smile](results/volatility_smile.png)
+![Volatility Smile](results/vol_smile.png)
 
 The volatility smile shows how implied volatility varies across different strike prices, reflecting real market behavior not captured by the constant volatility assumption.
 
