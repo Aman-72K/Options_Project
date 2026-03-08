@@ -92,7 +92,8 @@ You will be prompted to provide:
 
 ![Historical vs Implied Volatility](results/historical_vs_implied_vol.png)
 
-Compares realized volatility with implied volatility derived from the Black–Scholes model. Differences between the two may indicate changing market expectations.
+Compares realized volatility with implied volatility derived from the Black–Scholes model.  
+Generally, **IV > HV**, reflecting the **Volatility Risk Premium (VRP)** embedded in option prices.
 
 ---
 
